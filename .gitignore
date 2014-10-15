@@ -1,29 +1,21 @@
-# Object files
+Kconfig.kernel
+Kconfig.versions
+.kernel_config_md5
+.config
+.config.old
+*~
 *.o
+*.d
+.tmp_*
 *.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.cmd
+*.tmp
+*.ver
+modules.order
+backport-include/backport/autoconf.h
+modules
+kconf/mconf
+kconf/conf
+.tmp_versions
+Module.symvers
+*.mod.c
